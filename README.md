@@ -7,15 +7,29 @@ end.
 
 # The Game
 
-Suppose you have a bag with a red and a blue ball in it. The probability of
-grabbing either colored ball is 50%. The game plays as follows:
+Suppose you have a bag with a red and a blue marble in it. The probability of
+grabbing either colored marble is 50%. The game plays as follows:
 
-1. Draw a ball.
-2. If the ball is red, place the ball back and add another red ball.
-3. If the ball is blue, the game ends and you win.
+1. Draw a marble.
+2. If the marble is red, place the marble back and add another red marble.
+3. If the marble is blue, the game ends and you win.
 4. Repeat.
 
 ## Results
+
+![Results 1](img/Figure_1.png)
+
+The game was designed such that it automatically ended after 75 rounds,
+regardless of the outcome. This was done to prevent the game from running
+indefinitely. Interestingly, however, the vast majority of these games ended
+extremely quickly.
+
+![Results 2](img/Figure_2.png)
+
+I re-attempted this with a different game. If the marble is red, three
+additional red marbles would be added back. Interestingly, this 'infinite' game
+has a larger rate of failure, but still has a large number of games that end
+quickly.
 
 # License TL;DR
 
